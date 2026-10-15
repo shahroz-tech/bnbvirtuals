@@ -1,1 +1,8 @@
-{"name":"bnbvirtuals","version":"1.0.0","description":"BnB Virtuals Website","scripts":{"start":"npx serve . -p 3000 --no-clipboard"}}
+{
+    "name": "bnbvirtuals",
+    "version": "1.0.0",
+    "description": "BnB Virtuals Website",
+    "scripts": {
+        "start": "npx serve . -p 3000 --no-clipboard"
+    }
+}

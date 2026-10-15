@@ -983,28 +983,37 @@ footer {
   font-size: 0.82rem;
 }
 
+
 .social-links {
   display: flex;
-  gap: 12px;
+  align-items: center;
+  gap: 15px;
 }
 
 .social-links a {
-  width: 36px;
-  height: 36px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background .2s;
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.7);
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background: #222;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.social-links svg {
+  width: 20px;
+  height: 20px;
+  display: block;
 }
 
 .social-links a:hover {
-  background: var(--accent);
-  color: var(--white);
+  background: #0866ff;
+  transform: translateY(-3px);
 }
+
 
 /* ─── SCROLL TOP ──────────────────────────────── */
 .scroll-top {
@@ -1098,10 +1107,11 @@ footer {
 
 /* ─── NAV LOGO IMAGE ─────────────────────────── */
 .nav-logo-img {
-  height: 52px;
+  height: 72px;
   width: auto;
   display: block;
   object-fit: contain;
+  mix-blend-mode: multiply;
 }
 
 .nav-logo-footer {
